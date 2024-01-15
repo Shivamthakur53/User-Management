@@ -1,0 +1,87 @@
+{
+  "users": [
+    {
+      "id": "admin",
+      "name": "admin",
+      "password": "admin",
+      "email": "admin@gmail.com",
+      "phone": "1234567890",
+      "country": "india",
+      "address": "adin city cadmin",
+      "role": "admin",
+      "gender": "female"
+    },
+    {
+      "id": "anubhav",
+      "name": "anubhav",
+      "password": "12345",
+      "email": "anubhav@gmail.com",
+      "phone": "1234567899",
+      "country": "usa",
+      "address": "adin city cadmin",
+      "role": "user",
+      "gender": "male"
+    },
+    {
+      "id": "joker",
+      "name": "joker",
+      "password": "12345",
+      "email": "joker@gmail.com",
+      "phone": "1234567999",
+      "country": "italy",
+      "address": "italy city cadmin",
+      "role": "user1",
+      "gender": "other"
+    }
+  ],
+  "roleaccess": [
+    {
+      "role": "admin",
+      "menu": "customer",
+      "haveAdd": true,
+      "haveEdit": true,
+      "haveRemove": true
+    },
+    {
+      "role": "user",
+      "menu": "customer",
+      "haveAdd": true,
+      "haveEdit": true,
+      "haveRemove": false
+    },
+    {
+      "role": "user1",
+      "menu": "customer",
+      "haveAdd": false,
+      "haveEdit": false,
+      "haveRemove": false
+    }
+  ],
+  "customer": [
+    {
+      "code": 1,
+      "name": "Chris",
+      "email": "chris@in.com"
+    },
+    {
+      "code": 2,
+      "name": "Lynn",
+      "email": "lynn@in.com"
+    },
+    {
+      "code": 3,
+      "name": "Tim",
+      "email": "tim@in.com"
+    },
+    {
+      "code": 4,
+      "name": "Southee",
+      "email": "southee@in.com"
+    },
+    {
+      "code": 5,
+      "name": "boult",
+      "email": "bould@in.com"
+    }
+  ]
+}
