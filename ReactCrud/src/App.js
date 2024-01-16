@@ -12,6 +12,7 @@ import { ToastContainer } from "react-toastify";
 import ChangePassword from "./Pages/ChangePassword";
 import ProfilePage from "./Pages/ProfilePage";
 import Navbar from "./Pages/Navbar";
+
 function App() {
   return (
     <div className="App">
