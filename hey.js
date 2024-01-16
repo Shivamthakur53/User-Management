@@ -7,7 +7,11 @@ import React, { useState } from "react";
 
 const hey = () => {
   const [value, setvalue] = useState;
-  return <div>vewulcqecoqeulci</div>;
+  return (
+    <div>
+      <h1>hello world</h1>
+    </div>
+  );
 };
 
 export default hey;
