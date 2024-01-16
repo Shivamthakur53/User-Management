@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useNavigate, Link } from "react-router-dom";
 import { toast } from "react-toastify";
 import axios from "axios";
+import "./Home.css";
 const Email = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -53,7 +54,7 @@ const Email = () => {
   // };
 
   return (
-    <div>
+    <div className="container-1">
       <div className="offset-lg-3 col-lg-6" style={{ marginTop: "100px" }}>
         <form action="" className="container" onSubmit={handleLogin}>
           <div className="card">
