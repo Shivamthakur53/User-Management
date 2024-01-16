@@ -8,6 +8,7 @@ import React, { useState } from "react";
 const hey = () => {
   const [value, setvalue] = useState;
 <<<<<<< HEAD
+<<<<<<< HEAD
   console.log("hy anubhav");
   return <div></div>;
 };
@@ -15,6 +16,13 @@ const hey = () => {
 export default hey;
 =======
   return <div>vewulcqecoqeulci</div>;
+=======
+  return (
+    <div>
+      <h1>hello world</h1>
+    </div>
+  );
+>>>>>>> 6bc5239f2b74e2fe559e27295505aa0e72c0a66f
 };
 
 export default hey;
