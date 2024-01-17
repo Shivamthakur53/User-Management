@@ -28,7 +28,7 @@ function App() {
           <Route path="/Otp" element={<Otp />}></Route>
           <Route path="/changepassword" element={<ChangePassword />}></Route>
           <Route path="/customer" element={<Customer />}></Route>
-          <Route path="/profileedit/:id*" element={<ProfilePage />}></Route>
+          <Route path="/profileedit/:id" element={<ProfilePage />}></Route>
         </Routes>
       </BrowserRouter>
     </div>
